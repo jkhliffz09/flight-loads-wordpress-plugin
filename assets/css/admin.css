@@ -1,0 +1,85 @@
+.pfl-dashboard-stats {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.pfl-stat-box {
+  background: #fff;
+  border: 1px solid #ccd0d4;
+  border-radius: 4px;
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+}
+
+.pfl-stat-number {
+  font-size: 2em;
+  font-weight: bold;
+  color: #0073aa;
+  margin: 10px 0;
+}
+
+.pfl-recent-activity {
+  background: #fff;
+  border: 1px solid #ccd0d4;
+  border-radius: 4px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.pfl-user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pfl-user-table th,
+.pfl-user-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.pfl-user-table th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+.pfl-status-pending {
+  color: #d63638;
+  font-weight: bold;
+}
+
+.pfl-status-approved {
+  color: #00a32a;
+  font-weight: bold;
+}
+
+.pfl-action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.pfl-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.pfl-btn-approve {
+  background-color: #00a32a;
+  color: white;
+}
+
+.pfl-btn-deny {
+  background-color: #d63638;
+  color: white;
+}
+
+.pfl-btn-view {
+  background-color: #0073aa;
+  color: white;
+}

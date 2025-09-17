@@ -1,0 +1,11 @@
+#pfl-flight-load-form label{
+  margin: 0!important;
+}
+
+#pfl-flight-load-form input[type=checkbox]{
+  width: 15px!important;
+}
+
+.z-999999999{
+  z-index: 999999999;
+}
